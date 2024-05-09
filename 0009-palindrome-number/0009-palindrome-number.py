@@ -17,4 +17,4 @@ class Solution(object):
             numReversed = numReversed * 10 + lastDigit
             x = x // 10
         return numReversed == originalX
-        
+    
