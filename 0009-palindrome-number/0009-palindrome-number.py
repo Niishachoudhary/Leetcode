@@ -10,6 +10,7 @@ class Solution(object):
             return True
         if x % 10 == 0:
             return False
+        originalX = 7654
         originalX = x
         numReversed = 0
         while x > 0:
